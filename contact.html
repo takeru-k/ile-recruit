@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>イルデパン採用</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="l-header js-header">
+      <div class="l-header__wrap">
+        <div class="l-header__logo">
+          <a href="index.html">
+            <img src="images/header/logo.svg" alt="" />
+          </a>
+        </div>
+        <!-- /.l-header__logo -->
+
+        <nav class="l-header__nav">
+          <ul class="l-header__menu">
+            <li><a href="index.html" class="l-header__link">ホーム</a></li>
+            <li><a href="about.html" class="l-header__link">制度・環境</a></li>
+            <li><a href="company.html" class="l-header__link">会社紹介</a></li>
+            <li><a href="archive.html" class="l-header__link">人を知る</a></li>
+            <li class="l-header__button">
+              <a href="recruit.html" class="l-header__link">募集要項</a>
+            </li>
+          </ul>
+          <!-- /.l-header__menu -->
+        </nav>
+        <button
+          type="button"
+          class="c-hamburger js-btn"
+          aria-label="Navigation"
+        >
+          <span class="c-hamburger__line"></span
+          ><!-- /.c-hamburger__line --></button
+        ><!-- /.c-hamburger -->
+      </div>
+      <!-- /.l-header__wrap -->
+    </header>
+    <!-- /.l-header -->
+
+    <div class="c-breadcrumb">
+      <div class="l-inner">
+        <ul class="c-breadcrumb__list">
+          <li class="c-breadcrumb__item">
+            <a href="index.html">ホーム</a>
+          </li>
+          <!-- /.c-breadcrumb__item -->
+
+          <li class="c-breadcrumb__item">
+            <a href="company.html">会社紹介</a>
+          </li>
+          <!-- /.c-breadcrumb__item -->
+        </ul>
+        <!-- /.c-breadcrumb__list -->
+      </div>
+      <!-- /.l-inner -->
+    </div>
+    <!-- /.c-breadcrumb -->
+
+    <section class="l-block p-contact">
+      <div class="l-inner">
+        <div class="c-heading">
+          <h2>応募フォーム</h2>
+        </div>
+        <!-- /.c-heading -->
+
+        <div class="p-contact__body">
+          <div class="p-contact__lead">
+            <p>イルデパンに興味を持っていただきありがとうございます。</p>
+            <p>
+              カジュアル面談をご希望の方は、下記フォームへ必要事項をご記入いただき送信してください。
+            </p>
+            <p>※<span class="require">*</span>が付いている項目は必須です。</p>
+          </div>
+          <!-- /.p-contact__lead -->
+
+          <div class="p-contact__form">
+            <div class="c-form">
+              <table class="contactTable">
+                <tbody>
+                  <tr>
+                    <th>
+                      <label for="company" class="inputLabel"
+                        >お名前<span class="require">*</span></label
+                      >
+                    </th>
+                    <td>
+                      <div class="inputField">
+                        <input type="text" id="name" name="name" />
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <label for="company" class="inputLabel"
+                        >お名前（ふりがな）</label
+                      >
+                    </th>
+                    <td>
+                      <div class="inputField">
+                        <input type="text" id="name" name="name" />
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th>
+                      <label for="email" class="inputLabel"
+                        >メールアドレス<span class="require">*</span>
+                      </label>
+                    </th>
+                    <td>
+                      <div class="inputField">
+                        <input type="email" id="email" name="email" required />
+                        <p class="errorText">
+                          正しい形式のメールアドレスを入力してください。
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <label for="email" class="inputLabel">電話番号 </label>
+                    </th>
+                    <td>
+                      <div class="inputField">
+                        <input type="email" id="email" name="email" required />
+                        <p class="errorText">
+                          正しい形式のメールアドレスを入力してください。
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th>
+                      <label for="contact_msg" class="inputLabel"
+                        >連絡事項（任意）
+                      </label>
+                    </th>
+                    <td>
+                      <div class="inputField">
+                        <textarea
+                          name="contact_msg"
+                          id="contact_msg"
+                          cols="30"
+                          rows="10"
+                          required
+                        ></textarea>
+                        <p class="errorText">
+                          お問合せ内容を入力してください。
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="privacyBox">
+                <p>
+                  <a
+                    href="http://www.sendai-lang.com/pdf/personal.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >プライバシーポリシー</a
+                  >に同意して、送信してください。
+                </p>
+              </div>
+
+              <div class="formBtns">
+                <button class="buttonAction">この内容で送信する</button>
+              </div>
+            </div>
+            <!-- /.c-form -->
+          </div>
+          <!-- /.p-contact__form -->
+        </div>
+        <!-- /.p-contact__body -->
+      </div>
+      <!-- /.l-inner -->
+    </section>
+    <!-- /.c-block -->
+
+    <footer class="l-footer">
+      <div class="l-footer__inner">
+        <div class="l-footer__contents">
+          <div class="l-footer__info">
+            <p class="l-footer__logo">
+              <a href="index.html">株式会社イルデパン</a>
+            </p>
+            <!-- /.l-footer__logo -->
+          </div>
+          <!-- /.l-footer__info -->
+
+          <nav class="l-footer__nav">
+            <ul class="l-footer__menu">
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="about.html">制度・環境</a></li>
+              <li><a href="company.html">会社紹介</a></li>
+              <li><a href="archive.html">人を知る</a></li>
+              <li><a href="recruit.html">募集要項を見る</a></li>
+            </ul>
+            <!-- /.l-footer__menu -->
+          </nav>
+          <!-- /.l-footer__nav -->
+        </div>
+        <!-- /.l-footer__contents -->
+
+        <small class="l-footer__copy">
+          Designed by
+          <a href="https://knowledge-service.net">Knowledge Service</a
+          ><!-- /.l-footer__copy -->
+        </small>
+      </div>
+      <!-- /.l-footer__inner -->
+    </footer>
+    <!-- /.l-footer -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
